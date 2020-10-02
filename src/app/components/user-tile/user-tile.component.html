@@ -1,0 +1,18 @@
+<br>
+<div class="createUser">Create a user here! <button class="createBtn" (click)="createUser()">Create</button></div>
+<br>
+<table>
+    <tr><th>Id</th><th>Firstname</th><th>Lastname</th><th>Address</th><th>Salary</th></tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.firstname}}</td>
+        <td>{{user.lastname}}</td>
+        <td>{{user.address}}</td>
+        <td>{{user.salary}}</td>
+        <td class="DetailsBtn">
+            <button class="details" (click)="goToDetails(user.id)">Details</button>
+            <button class="update" (click)="goToUpdate(user.id)">Update</button>
+            <button class="delete" (click)="deleteUser(user)">Delete</button>
+        </td>
+    </tr>
+</table>

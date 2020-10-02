@@ -1,0 +1,21 @@
+<br>
+<div class="update" *ngIf="dataLoaded">
+    <h2>Update the user!</h2>
+    <form [formGroup]="updateUserForm">
+        <input [formControlName]="'firstname'" placeholder="{{user.firstname}}" value="{{user.firstname}}" type="text"><br>
+        Firstname<br>
+        <input [formControlName]="'lastname'" placeholder="{{user.lastname}}" value="{{user.lastname}}" type="text"><br>
+        Lastname<br>
+        <input [formControlName]="'address'" placeholder="{{user.address}}" value="{{user.address}}" type="text"><br>
+        Address<br>
+        <input [formControlName]="'salary'" placeholder="{{user.salary}}" value="{{user.salary}}" type="number"><br>
+        Salary<br><br>
+        <button (click)="updateUser()">Update</button><br>
+        <span style="font-size: 16px; color: rgb(255, 66, 66);" *ngIf="updating === 'no'">
+            Fill all the fields!
+        </span>
+        <span style="font-size: 16px; color: black;" *ngIf="updating === 'updating'">
+            Updating user!
+        </span>
+    </form>
+</div>

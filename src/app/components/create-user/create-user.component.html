@@ -1,0 +1,21 @@
+<br>
+<div class="create">
+    <h2>Create user!</h2>
+    <form [formGroup]="createUserForm">
+        <input [formControlName]="'firstname'" type="text"><br>
+        Firstname<br>
+        <input [formControlName]="'lastname'" type="text"><br>
+        Lastname<br>
+        <input [formControlName]="'address'" type="text"><br>
+        Address<br>
+        <input [formControlName]="'salary'" type="number"><br>
+        Salary<br><br>
+        <button (click)="createUser()">Create</button><br>
+        <span style="font-size: 16px; color: rgb(255, 66, 66);" *ngIf="created === 'no'">
+            Fill all the fields!
+        </span>
+        <span style="font-size: 16px; color: black;" *ngIf="created === 'creating'">
+            Creating user!
+        </span>
+    </form>
+</div>

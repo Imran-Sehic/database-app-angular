@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "database-management-angular"
+    }
+  },
+  "defaultProject": "database-management-angular",
+  "cli": {
+    "analytics": false
+  }
 }
