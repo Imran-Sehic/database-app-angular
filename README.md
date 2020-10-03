@@ -1,27 +1,16 @@
-# DatabaseManagementAngular
+# Database-App-Angular
+<h3>This is the frontend of a simple dabatabase management application written in Angular with TypeScript.</h3></br></br>
+The application is capable of doing basic CRUD operations. There are 4 views among which list user, insert user, user details, and update user.</br></br>
+Below are some of the screenshots of the application itself.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+## 1.List users
+<p align="center"><img src="screenshots/dbapp1.png" width=600></p></br>
 
-## Development server
+## 2.Insert user
+<p align="center"><img src="screenshots/dbapp3.png" width=600></p></br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 3.User details
+<p align="center"><img src="screenshots/dbapp2.png" width=600></p></br>
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 4.Update user
+<p align="center"><img src="screenshots/dbapp4.png" width=600></p></br>
