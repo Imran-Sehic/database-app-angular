@@ -10,7 +10,7 @@ Below are some of the screenshots of the application itself.
 <p align="center"><img src="screenshots/dbapp3.png" width=600></p></br>
 
 ## 3.User details
-<p align="center"><img src="screenshots/dbapp2.png" width=600></p></br>
+<p align="center"><img src="screenshots/dbapp4.png" width=600></p></br>
 
 ## 4.Update user
-<p align="center"><img src="screenshots/dbapp4.png" width=600></p></br>
+<p align="center"><img src="screenshots/dbapp2.png" width=600></p></br>
